@@ -7,6 +7,7 @@ int main() {
     list.addFirst(1);
     list.addLast(2);
     list.addLast(3);
+    list.addFirst(4);
     auto array = list.toArray();
     for(int i = 0; i < list.Size(); i++) {
         std::cout << array[i] << " ";
